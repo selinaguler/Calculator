@@ -1,7 +1,7 @@
 .buttons {
   display: grid;                  
-  grid-template-columns: repeat(3, 200px); 
-  grid-template-rows: repeat(5, 100px);                               
+  grid-template-columns: repeat(4, 200px); 
+  grid-template-rows: repeat(4, 100px);                               
   background-color: white;
 }
 
@@ -17,5 +17,5 @@ button:hover {
 }
 
 #result {
-  grid-column: 1 / 4;
+  grid-column: 1 / 5;
 }
